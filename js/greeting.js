@@ -16,7 +16,7 @@
 	const input = form.querySelector("input");
 	const value = input.value;
 	localStorage.setItem("username", value);
-	welcomeName(name);
+	welcomeName(value);
 }
  function nameInput() {
 	const input = document.createElement("input");
